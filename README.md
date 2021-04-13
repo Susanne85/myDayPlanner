@@ -3,7 +3,8 @@ An application that allows a user to see the events for their day.
 
 The application allows a user to see the events that they have for the current day. 
 Depending on whether the start time for the event is in the past, present or future of the current hour, the color of the event text background
-will be different.  For past events the background will be grey, for the present the background will be red and for future events
+will be different.  
+For past events the background will be grey, for the present the background will be red and for future events
 the background will be green.
 Users are able to add, change or delete event text if the event start time is either present or in the future.  Event text for past events cannot be changed.
 
