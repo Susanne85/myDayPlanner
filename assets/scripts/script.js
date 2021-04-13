@@ -42,17 +42,15 @@ function displayEventsForToday() {
         } else{
           currentHr = currentHr + ":00 pm";
         }
-
         if (todaysStartHrs[i] < currentStartHr){
          pItem1 = $('<input class= "description past" style="width:40vw" disabled="disabled">').val(todaysCalendarEventText[i]);
          buttonItem = $('<button class = "saveBtn" style="display:none">')
         } else {
             buttonItem = $('<button class = "saveBtn">').text('Save');
-            
-            if (todaysStartHrs[i] === currentStartHr){
-               pItem1 = $('<input class= "description present" style="width:40vw">').val(todaysCalendarEventText[i]);
+            if (todaysStartHrs[i] === currentStartHr.toString()){
+              pItem1 = $('<input class= "description present" style="width:40vw">').val(todaysCalendarEventText[i]);
             } else{
-                pItem1 = $('<input class= "description future" style="width:40vw">').val(todaysCalendarEventText[i]);
+              pItem1 = $('<input class= "description future" style="width:40vw">').val(todaysCalendarEventText[i]);
             }
         }
 
