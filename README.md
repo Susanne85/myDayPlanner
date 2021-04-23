@@ -14,4 +14,8 @@ To remove text, the user simply deletes the text and clicks on the save button.
 When adding a new event and the user doesn't enter any text they will be presented with a confirmation prompt advising them to enter
 some event text.
 
+**Link**
+
+The link to the deployed application is : https://susanne85.github.io/myDayPlanner/
+
 ![My Day planner](./assets/images/1-myDayPlanner.png)
