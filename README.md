@@ -1,4 +1,5 @@
-My Day Planner.
+## My Day Planner. ##
+
 An application that allows a user to see the events for their day.
 
 The application allows a user to see the events that they have for the current day. 
@@ -18,4 +19,28 @@ some event text.
 
 The link to the deployed application is : https://susanne85.github.io/myDayPlanner/
 
+
+
+**Technologies Utilised**
+
+. HTML 
+
+. CSS
+
+. Javascript
+
+**Application Display**
+
+The front page of this application displays the events that a user has for the current day.
+
+                                                
 ![My Day planner](./assets/images/1-myDayPlanner.png)
+
+**Liscense**
+
+. MIT
+
+**Contact information**
+
+Susanne Bilney 
+email: xkqk2010@gmail.com
